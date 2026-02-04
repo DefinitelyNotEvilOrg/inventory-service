@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "archived": { "type": "boolean" },
+    "visibility": { "type": "string" },
+    "default_branch": { "type": "string" }
+  },
+  "required": ["name", "visibility"]
+}
